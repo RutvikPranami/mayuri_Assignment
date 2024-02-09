@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+.fizz {
+  background-color: red;
+}
+
+.buzz {
+  background-color: blue;
+}
+
+.fizzbuzz {
+  background-color: yellow;
+}
+
+.normal {
+  background-color: pink;
+}
 
 .App-logo {
   height: 40vmin;
@@ -34,5 +49,48 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  margin: 70px;
+}
+
+.team-member img {
+  border-radius: 50%;
+}
+
+.development_team {
+  background-color: purple; /* Updated background color to purple */
+  color: #fff; /* White text color */
+  padding: 5px;
+  width: 25%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+
+@media screen and (max-width: 960px) {
+  .development_team {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 450px) {
+  .development_team {
+    font-size: xx-small;
   }
 }

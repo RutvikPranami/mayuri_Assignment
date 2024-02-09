@@ -1,0 +1,55 @@
+/* Header.css */
+.header {
+  background-color: purple; /* Updated background color to purple */
+  color: #fff; /* White text color */
+  padding: 5px;
+  width: 25%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.header p {
+  margin: 0;
+  font-size: x-large;
+}
+
+.header_p {
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .header p {
+    margin: 0;
+    font-size: larger;
+  }
+}
+@media screen and (max-width: 392px) {
+  .header p {
+    margin: 0;
+    font-size: medium;
+  }
+}
+
+.header_team {
+  background-color: purple; /* Updated background color to purple */
+  color: #fff; /* White text color */
+  padding: 5px;
+  width: 25%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+@media screen and (max-width: 960px) {
+  .header_team {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header_team {
+    font-size: xx-small;
+  }
+}

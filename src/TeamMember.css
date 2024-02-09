@@ -1,0 +1,23 @@
+/* TeamMember.css */
+.team-member {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  margin: 5px 0;
+}
+
+.team-member p {
+  margin: 0;
+  color: purple;
+}
